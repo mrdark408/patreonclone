@@ -1,0 +1,29 @@
+.navOptions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.navOptions:hover {
+    background-color: var(--background);
+    border-radius: 12px;
+    color: var(--text);
+    transition: color 100ms ease-out;
+}
+
+.svg {
+    padding: 20px;
+    margin-right: -8px;
+    font-size: 2.5vh;
+}
+
+.navOptions > h2 {
+    font-weight: 350;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.navOptions--active {
+    color: var(--text);
+}
