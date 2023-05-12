@@ -1,13 +1,14 @@
 .nav {
     border-right: 1px solid var(--border);
     flex: 0.25;
-    height: 100vh;
+    min-width: 10vh;
 }
 
 .logo {
 text-align: end;
 padding-right: 10px;
 }
+
 .logo path {   /*this is for the svg logo*/
     fill: var(--text);
 }
